@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title }}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container logo-menu hd">
+                <div class="row">
+                    <div class="col-4"><!-- Let this empty ? --></div>
+                    <div class="col-8">
+                        <nav class="nav justify-content-end">
+                            <a class="nav-link nunito-regular px-2" href=""><i class="material-icons px-1">call</i>0274-5305505</a>
+                            <a class="nav-link nunito-regular px-2" href=""><i class="material-icons px-1">question_answer</i>Live Chat</a>
+                            <a class="nav-link nunito-regular px-2" href=""><i class="material-icons px-1">account_circle</i>Member Area</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="scroller_anchor"></div>
+            <div class="mobile container-mobile logo-menu logo-menu-mobile">
+                <div class="row">
+                    <div class="col-2 py-3">
+                        <a href=""><img src="assets/svg/niagahoster-logo-mobile.svg" class="logo-mobile" alt="niagahoster"></a>
+                    </div>
+                    <div class="col-10 align-self-center">
+                            <a href="" id="mobile-menu-toggle" class="nav-link"><span class="border border-dark rounded p-1 float-right"><i class="material-icons px-1">menu</i></span></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-0">
+            <div class="container hd">
+                <div class="row py-3">
+                    <div class="col-2">
+                        <a href=""><img src="assets/svg/niagahoster-logo.svg" class="logo" alt="niagahoster"></a>
+                    </div>
+                    <div class="col-10 align-self-center">
+                        <nav class="nav justify-content-end header-menu">
+                            <a href="" class="nav-link px-2 nunito-regular">Hosting</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Domain</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Server</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Website</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Afiliasi</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Promo</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Pembayaran</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Review</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Kontak</a>
+                            <a href="" class="nav-link px-2 nunito-regular">Blog</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile nav flex-column header-menu nav-top-menu bg-secondary" style="display: none; margin-top: 0px;">
+                <a href="" class="nav-link px-2 nunito-regular">Hosting</a>
+                <a href="" class="nav-link px-2 nunito-regular">Domain</a>
+                <a href="" class="nav-link px-2 nunito-regular">Server</a>
+                <a href="" class="nav-link px-2 nunito-regular">Website</a>
+                <a href="" class="nav-link px-2 nunito-regular">Afiliasi</a>
+                <a href="" class="nav-link px-2 nunito-regular">Promo</a>
+                <a href="" class="nav-link px-2 nunito-regular">Pembayaran</a>
+                <a href="" class="nav-link px-2 nunito-regular">Review</a>
+                <a href="" class="nav-link px-2 nunito-regular">Kontak</a>
+                <a href="" class="nav-link px-2 nunito-regular">Blog</a>
+                <a class="nav-link px-2 nunito-regular" href=""><i class="material-icons px-1">call</i>0274-5305505</a>
+                <a class="nav-link px-2 nunito-regular" href=""><i class="material-icons px-1">question_answer</i>Live Chat</a>
+                <a class="nav-link px-2 nunito-regular" href=""><i class="material-icons px-1">account_circle</i>Member Area</a>
+            </div>
+            <hr class="my-0">
+        </header>
+        <div class="trigger-margin-top"></div>
+
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12 col-md-6">
+                    <h1 class="montserrat-bold">PHP Hosting</h1>
+                    <p class="montserrat-light">Cepat, handal, penuh dengan modul PHP yang anda butuhkan</p>
+                    <ul class="list-unstyled">
+                        {% for banners in banner %}
+                        <li class="nunito-regular font-size-16"><i class="material-icons" style="color:#64B152">check_circle</i>{{banners}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="banner-img float-right" src="assets/svg/illustration banner PHP hosting-01.svg">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container py-5 pb-4">
+            <div class="row">
+                <figure class="figure col-md-4">
+                    <center><img src="assets/images/icon PHP Hosting_zendguard.png" style="margin-top:25%;margin-bottom: 10%" class="figure-img img-fluid rounded" alt="PHP Zend Guard Loader">
+                    <figcaption class="figure-caption">PHP Zend Guard Loader</figcaption></center>
+                </figure>
+                <figure class="figure col-md-4">
+                    <center><img src="assets/images/icon PHP Hosting_composer.png" class="figure-img img-fluid rounded" alt="PHP Composer">
+                    <figcaption class="figure-caption">PHP Composer</figcaption></center>
+                </figure>
+                <figure class="figure col-md-4">
+                    <center><img src="assets/images/icon PHP Hosting_ioncube.png" style="margin-top:20%;margin-bottom: 15%" class="figure-img img-fluid rounded" alt="PHP ionCube Loader">
+                    <figcaption class="figure-caption">PHP ionCube Loader</figcaption></center>
+                </figure>
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12">
+                    <center>
+                        <h2 class="montserrat-bold">Paket Hosting Singapura yang Tepat</h2>
+                        <p class="montserrat-light">Diskon 40% + Domain dan SSL Gratis untuk Anda</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <table class="border" style="width:100%;">
+                        <tr class="border-bottom">
+                            <td>
+                                <h3 class="montserrat-bold " style="text-align: center">Bayi</h3><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" id="price_bayi" style="text-decoration:line-through;text-align: center">Rp 19.900</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><label class="nunito-regular text-left-right"><span class="montserrat-light text-left">Rp</span><span class="montserrat-bold  text-right" id="first-bayi">14</span><span class="montserrat-bold  text-middle" id="last-bayi">.900</span><span class="text-left">/bln</span></label></center>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>938</b> Pengguna Terdaftar</p>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>0.5X RESOURCES POWER</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>500 MB</b> Disk Space</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Bandwidth</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Databases</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>1</b> Domain</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Instant</b> Backup</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited SSL</b> Gratis Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><a href="" class="btn btn-default" style="border-radius: 40px;margin:5%;border: 2px solid rgba(0, 0, 0, 0.75);">Pilih Sekarang</a></center>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <table class="border" style="width:100%;">
+                        <tr class="border-bottom">
+                            <td>
+                                <h3 class="montserrat-bold " style="text-align: center">Pelajar</h3><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" id="price_pelajar" style="text-decoration:line-through;text-align: center">Rp 46.900</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><label class="nunito-regular text-left-right"><span class="montserrat-light text-left">Rp</span><span class="montserrat-bold  text-right" id="first-pelajar">23</span><span class="montserrat-bold  text-middle" id="last-pelajar">.450</span><span class="text-left">/bln</span></label></center>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>4.168</b> Pengguna Terdaftar</p>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>1X RESOURCES POWER</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Disk Space</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Bandwidth</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> POP3 Email</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Databases</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>10</b> Addone Domains</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Instant</b> Backup</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Domain Gratis</b> Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited SSL</b> Gratis Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><a href="" class="btn btn-default" style="border-radius: 40px;margin:5%;border: 2px solid rgba(0, 0, 0, 0.75);">Pilih Sekarang</a></center>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div></div>
+                <div class="col-md-3">
+                    <div class="container hd">
+                            <img src="assets/images/best.png" style="width:100px;height:100px;position: absolute;z-index: 2;right: 190px;top: -15px"alt="">
+                    </div>
+                    <div class="mobile container-mobile">
+                            <img src="assets/images/best.png" style="width:150px;height:150px;position: absolute;z-index: 2;right: 235px;top: -15px"alt="">
+                    </div>
+                    <table class="border border-primary" style="width:100%;">
+                        <tr bgcolor="#508EEB">
+                            <td>
+                                <h3 class="montserrat-bold text-wht" style="text-align: center;">Personal</h3><br>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#508EEB">
+                            <td>
+                                <p class="nunito-regular text-wht" id="price_personal" style="text-decoration:line-through;text-align: center">Rp 58.900</p>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#508EEB">
+                            <td>
+                                <center> <label class="nunito-regular text-left-right text-wht"><span class="montserrat-light text-left text-wht">Rp</span><span class="montserrat-bold  text-right text-wht" id="first-personal">38</span><span class="montserrat-bold  text-middle text-wht" id="last-personal">.900</span><span class="text-left text-wht">/bln</span></label></center>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#477EDA">
+                            <td>
+                                <p class="nunito-regular text-wht" style="text-align: center"><b>10.017</b> Pengguna Terdaftar</p>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>2X RESOURCES POWER</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Disk Space</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Bandwidth</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> POP3 Email</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Databases</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Addone Domains</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Instant</b> Backup</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Domain Gratis</b> Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited SSL</b> Gratis Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Private</b> Name Server</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>SpamAssasin</b> Mail Protection</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><a href="" class="btn btn-primary" style="border-radius: 40px;margin:5%">Pilih Sekarang</a></center>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <table class="border" style="width:100%;">
+                        <tr class="border-bottom">
+                            <td>
+                                <h3 class="montserrat-bold " style="text-align: center">Bisnis</h3><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" id="price_bisnis" style="text-decoration:line-through;text-align: center">Rp 109.900</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><label class="nunito-regular text-left-right"><span class="montserrat-light text-left">Rp</span><span class="montserrat-bold  text-right" id="first-bisnis">65</span><span class="montserrat-bold  text-middle" id="last-bisnis">.900</span><span class="text-left">/bln</span></label></center>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>3.552</b> Pengguna Terdaftar</p>
+                            </td>
+                        </tr>
+                        <tr class="border-top">
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>3X RESOURCES POWER</b></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Disk Space</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Bandwidth</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> POP3 Email</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Databases</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited</b> Addone Domains</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Magic Auto</b> Backup & Restore</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Domain Gratis</b> Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Unlimited SSL</b> Gratis Selamanya</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Private</b> Name Server</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>Prioritas</b> Layanan Support</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center>
+                                    <i class="material-icons" style="font-size:20px;color:blue">grade</i>
+                                    <i class="material-icons" style="font-size:20px;color:blue">grade</i>
+                                    <i class="material-icons" style="font-size:20px;color:blue">grade</i>
+                                    <i class="material-icons" style="font-size:20px;color:blue">grade</i>
+                                    <i class="material-icons" style="font-size:20px;color:blue">grade</i>
+                                </center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="nunito-regular" style="text-align: center"><b>SpamExpert</b> Pro Mail Protection</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center><a href="" class="btn btn-default" style="border-radius: 40px;margin:5%;border: 2px solid rgba(0, 0, 0, 0.75);">Diskon 40%</a></center>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12"><center><p class="montserrat-light">Powerful dengan Limit PHP yang Lebih Besar</p></center></div>
+                
+                <div class="col-6">
+                    <table class="table table-striped">
+                        <tbody>
+                            {% for powerLeft in powerful_left %}
+                            <tr>
+                            <td style="text-align: center"><i class="material-icons float-left" style="color:#64B152">check_circle</i><span>{{powerLeft}}</span></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-6">
+                    <table class="table table-striped">
+                        <tbody>
+                            {% for powerRight in powerful_right %}
+                            <tr>
+                            <td style="text-align: center"><i class="material-icons float-left" style="color:#64B152">check_circle</i><span>{{powerRight}}</span></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12"><center><p class="montserrat-light">Semua Paket Hosting Sudah Termasuk</p></center></div>
+                {% for pakets in paket %}
+                <figure class="figure col-md-4">
+                    <center><img src="{{pakets.src}}" style="height: 100px;width: 150px" class="figure-img img-fluid rounded" alt="{{pakets.alt}}">
+                    <figcaption class="figure-caption nunito-bold"><h5>{{pakets.title}}</h5></figcaption>
+                    <figcaption class="figure-caption">{{pakets.desc}}</figcaption></center>
+                </figure>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12"><center><p class="montserrat-light">Mendukung Penuh Framework Laravel</p></center></div>
+                <div class="col-12 col-md-6">
+                    <label class="montserrat-light font-size-16">Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</label>
+                    <ul class="list-unstyled">
+                        <li class="nunito-regular font-size-14"><i class="material-icons" style="color:#64B152">check_circle</i>Install Laravel <b>1 klik</b> dengan Softaculous Installer.</li>
+                        <li class="nunito-regular font-size-14"><i class="material-icons" style="color:#64B152">check_circle</i>Mendukung ekstensi <b>PHP MCrypt, phar, mbstring, json, </b>dan <b>Fileinfo.</b></li>
+                        <li class="nunito-regular font-size-14"><i class="material-icons" style="color:#64B152">check_circle</i>Tersedia <b>Composer</b> dan <b>SSH</b> untuk menginstal packages pilihan Anda.</li>
+                        <li class="nunito-regular font-size-10">Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</li>
+                    </ul>
+                    <a href="" class="btn btn-primary" style="border-radius: 40px;">Pilih Hosting Anda</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="banner-img float-right" src="assets/svg/illustration banner support laravel hosting.svg">
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12"><center><p class="montserrat-light">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda.</p></center></div>
+                {% for modules in module %}
+                <div class="col-md-3">
+                    <label class="montserrat-light font-size-14">{{modules}}</label>
+                </div>
+                {% endfor %}
+                <div class="col-md-12"><center><a href="" class="btn btn-default" style="border-radius: 40px;margin:5%;padding:10px;width: 200px;border: 2px solid rgba(0, 0, 0, 0.75);">Selengkapnya</a></center></div>
+            </div>
+        </div>
+        <div class="container py-5 pb-4">
+            <div class="row banner">
+                <div class="col-12 col-md-6">
+                    <p class="montserrat-light font-size-20">Linux Hosting yang Stabil dengan Teknologi LVE</p>
+                    <div class="nunito-regular font-size-14">SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128 GB</b> dan teknologi <b>LVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi dengan <b>SSD</b> untuk kecepatan <b>MySQL</b> dan caching, Apache load balancer berbasis LiteSpeed Technologies, CageFS security,<b>Raid-10</b> protection dan auto backup untuk keamanan website PHP Anda.</div>
+                    <a href="" class="btn btn-primary" style="border-radius: 40px;margin-top: 5%;">Pilih Hosting Anda</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img class="banner-img float-right" src="assets/images/Image support.png">
+                </div>
+            </div>
+        </div>
+        <div class="share py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-7 align-self-center">
+                        <span>Bagikan jika Anda menyukai halaman ini.</span>
+                    </div>
+                    <div class="col-sm-6 col-md-5">
+                        <a href="" class="fa fa-facebook" style="border-radius:20%;background:#3B5998;"></a>
+                        <a href="" class="fa fa-twitter" style="border-radius:20%;background:#55ACEE;"></a>
+                        <a href="" class="fa fa-google" style="border-radius:20%;background:#dd4b39;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="support-banner">
+            <div class="container py-5">
+                <div class="row align-self-center">
+                    <div class="col-12 col-xl-9 text-center">
+                        <div class="my-3"></div>
+                        <div class="px-2">
+                            <span class="montserrat-light">Perlu <b>BANTUAN?</b> <span class="one">Hubungi Kami:</span></span>
+                            <span class="montserrat-light"><b>0274-5305505</b></span>
+                            <span class="montserrat-bold one"><a href="" class="telp link-telp"></a> </span>
+                        </div>
+                        <div class="my-3"></div>
+                    </div>
+                    <div class="col-12 col-xl-3 text-center align-self-center">
+                        <div class="my-3"></div>
+                        <div>
+                            <a class="support-button"><i class="material-icons support-icon mr-2">question_answer</i> Live Chat</a>
+                        </div>
+                        <div class="my-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-menu pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-3 pb-3 info">
+                        <p class="title roboto-bold">Hubungi Kami</p>
+                        <a href="" class="nunito-regular text telp link-telp">0274-5305505</a>
+                        <p class="nunito-regular text">Senin - Minggu
+                            24 Jam Non Stop</p>
+                        <p class="nunito-regular text">Jl. Selokan Mataram Monjali 
+                            Karangjati MT 1/304 
+                            Sinduadi, Mlati, Sleman 
+                            Yogyakarta 55581</p>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-3 pb-3">
+                        <p class="title roboto-bold">Layanan</p>
+                        <ul class="nunito-regular text list layanan">
+                            {% for layanans in layanan %}
+                            <li><a href="" class="nunito-regular">{{layanans}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-3 pb-3">
+                        <p class="title roboto-bold">Service Hosting</p>
+                        <ul class="nunito-regular text list service">
+                            {% for hostings in hosting %}
+                            <li><a href="" class="nunito-regular">{{hostings}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-3 pb-3">
+                        <p class="title roboto-bold">Tutorial</p>
+                        <ul class="nunito-regular text list tutorial">
+                            {% for tutorials in tutorial %}
+                            <li><a href="" class="nunito-regular">{{tutorials}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-3 pb-3">
+                        <p class="title roboto-bold">Tentang Kami</p>
+                        <ul class="nunito-regular text list tentang">
+                            {% for abouts in about %}
+                            <li><a href="" class="nunito-regular">{{abouts}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-3 pb-3">
+                        <p class="title roboto-bold">Kenapa Pilih Niagahoster?</p>
+                        <ul class="nunito-regular text list tentang">
+                            {% for whys in why %}
+                            <li><a href="" class="nunito-regular">{{whys}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 order-sm-2 col-lg-6 order-lg-1 col-xl-3 order-xl-1 pb-3">
+                        <p class="title roboto-bold">Newsletter</p>
+                        <div class="pt-2"></div>
+                        <div class="input-group input">
+                            <input type="text" class="form-control rounded-0" id="validationDefaultUsername" placeholder="Email" aria-describedby="inputGroupPrepend2" required="">
+                            <div class="input-submit">
+                                <input type="submit" class="btn btn-primary rounded-0" id="inputGroupPrepend2" value="Berlangganan">
+                            </div>
+                        </div>
+                        <p class="nunito-light nl mt-3">Dapatkan promo dan konten menarik dari penyedia hosting terbaik Anda.</p>
+                    </div>
+                    <div class="col-12 col-sm-12 order-sm-3 col-lg-6 order-lg-3 col-xl-3 order-xl-2 pb-3">
+                        <div class="pt-2"></div>
+                        <div class="row sosmed pt-3">
+                            <a href="" class="fa fa-facebook" style="border-radius: 50%;border: solid white;width: 50px;height: 50px;padding: 10px"></a>
+                            <a href="" class="fa fa-twitter" style="border-radius: 50%;border: solid white;width: 50px;height: 50px;padding: 10px"></a>
+                            <a href="" class="fa fa-google" style="border-radius: 50%;border: solid white;width: 50px;height: 50px;padding: 10px"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 order-sm-1 col-lg-6 order-lg-2 col-xl-12 order-xl-3 pb-3">
+                        <p class="title roboto-bold">Pembayaran</p>
+                        <div class="row pembayaran-logo pembayaran">
+                            {% for pays in pay %}
+                            <div class="col col-xl-1 py-2">
+                                <img src="{{pays.src}}" class="logo-pembayaran" alt="{{pays.alt}}">
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <p class="nunito-light nl pt-3">Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright pt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <hr>
+                    </div>
+                    <div class="col-md-8 col-sm-12 nunito-light">
+                        Copyright ©2016 Niagahoster | Hosting powered by PHP7,
+                        CloudLinux, CloudFlare, BitNinja and DC Biznet Technovillage Jakarta<br>
+                        Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 font-white center-text">
+                        <span class="syarat-dan-ketentuan nunito-light">
+                            Syarat dan Ketentuan | Kebijakan Privasi
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: 'json.php',
+                    dataType: 'json',
+                    success: function (result) {
+                        $("#price_bayi").text('Rp '+nominal_convert(result.bayi.price));
+                        var disc_bayi=nominal_convert(result.bayi.discount).split(".");
+                        $("#first-bayi").text(disc_bayi[0]);
+                        $("#last-bayi").text('.'+disc_bayi.slice(1, disc_bayi.length).join("."));
+                        $("#price_pelajar").text('Rp '+nominal_convert(result.pelajar.price));
+                        var disc_pelajar=nominal_convert(result.pelajar.discount).split(".");
+                        $("#first-pelajar").text(disc_pelajar[0]);
+                        $("#last-pelajar").text('.'+disc_pelajar.slice(1, disc_pelajar.length).join("."));
+                        $("#price_personal").text('Rp '+nominal_convert(result.personal.price));
+                        var disc_personal=nominal_convert(result.personal.discount).split(".");
+                        $("#first-personal").text(disc_personal[0]);
+                        $("#last-personal").text('.'+disc_personal.slice(1, disc_personal.length).join("."));
+                        $("#price_bisnis").text('Rp '+nominal_convert(result.bisnis.price));
+                        var disc_bisnis=nominal_convert(result.bisnis.discount).split(".");
+                        $("#first-bisnis").text(disc_bisnis[0]);
+                        $("#last-bisnis").text('.'+disc_bisnis.slice(1, disc_bisnis.length).join("."));
+                    }
+                });
+                function nominal_convert(nominal) {
+                    if(nominal>=0){
+                        var angka = nominal.toString(),
+                        sisa = angka.length % 3,
+                        rupiah = angka.substr(0, sisa),
+                        ribuan = angka.substr(sisa).match(/\d{3}/g);
+                        if (ribuan) {
+                            separator = sisa ? '.' : '';
+                            rupiah += separator + ribuan.join('.');
+                        }
+                    }else{
+                        var angka = nominal.toString(),
+                        angka=angka.replace("-", ""),
+                        sisa = angka.length % 3,
+                        rupiah = angka.substr(0, sisa),
+                        ribuan = angka.substr(sisa).match(/\d{3}/g);
+                        if (ribuan) {
+                            separator = sisa ? '.' : '';
+                            rupiah += separator + ribuan.join('.');
+                        }
+                        rupiah='-'+rupiah;
+                    }
+                    return rupiah;
+                }
+                var pull = $('#mobile-menu-toggle');
+                var menu = $('.nav-top-menu');
+
+                $(pull).on('click', function (e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+
+                $(window).scroll(function (e) {
+                    var width = $(this).width();
+                    var scroller_anchor = $(".scroller_anchor").offset().top;
+
+                    if (width >= 320 && width <= 1023) {
+                        if ($(this).scrollTop() > scroller_anchor && $('.logo-menu').css('position') != 'fixed') {
+                            $('.logo-menu-mobile').css({
+                                'position': 'fixed',
+                                'width': '100%'
+                            });
+                            $('.trigger-margin-top').css('margin-top', '50px');
+                            $('header .nav-top-menu').css('margin-top', '55px');
+                        } else if ($(this).scrollTop() <= scroller_anchor && $('.logo-menu').css('position') != 'relative') {
+                            $('.trigger-margin-top').css('margin-top', '0');
+                            $('header .nav-top-menu').css('margin-top', '0');
+                            $('.logo-menu-mobile').css({
+                                'position': 'relative'
+                            });
+                        }
+                    }
+                });
+            }); 
+        </script>
+    </body>
+</html>
