@@ -185,18 +185,6 @@ echo $twig->render('index.html', [
         array('src' => 'assets/svg/payment/prima.svg', 'alt' => 'prima'),
         array('src' => 'assets/svg/payment/alto.svg', 'alt' => 'alto'),
     ),
-    
-    'footer' => array(
-        array( 'text' => 'Hubungi Kami', 'class' => 'col-12 col-sm-4 col-lg-3 col-xl-3', 'nama' => 'info' ),
-        array( 'text' => 'Layanan', 'class' => 'col-12 col-sm-4 col-lg-3 col-xl-3', 'nama' => 'layanan' ),
-        array( 'text' => 'Service Hosting', 'class' => 'col-12 col-sm-4 col-lg-3 col-xl-3', 'nama' => 'service' ),
-        array( 'text' => 'Tutorial', 'class' => 'col-12 col-sm-4 col-lg-3 col-xl-3', 'nama' => 'tutorial' ),
-        array( 'text' => 'Tentang Kami', 'class' => 'col-12 col-sm-4 col-lg-3 col-xl-3', 'nama' => 'tentang' ),
-        array( 'text' => 'Kenapa Milih Niagahoster', 'class' => 'col-12 col-sm-4 col-lg-3 col-xl-3', 'nama' => 'why' ),
-        array( 'text' => 'Newsletter', 'class' => 'col-12 col-sm-6 order-sm-2 col-lg-6 order-lg-1 col-xl-3 order-xl-1', 'nama' => 'newsletter' ),
-        array( 'text' => 'Sosmed', 'class' => 'col-12 col-sm-12 order-sm-3 col-lg-6 order-lg-3 col-xl-3 order-xl-2', 'nama' => 'sosmed' ),
-        array( 'text' => 'Pembayaran', 'class' => 'col-12 col-sm-6 order-sm-1 col-lg-6 order-lg-2 col-xl-12 order-xl-3', 'nama' => 'pembayaran' ),
-    ),
 
 ]);
 
